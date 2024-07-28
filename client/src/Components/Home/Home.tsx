@@ -115,7 +115,7 @@ const Home: React.FC = () => {
           <div className="effect" id="search">
             <input
               type="text"
-              placeholder="City name"
+              placeholder="enter valid City name"
               onChange={(e) => setCityName(e.target.value)}
               className="cityInput"
             />
