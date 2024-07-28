@@ -89,8 +89,8 @@ const Home: React.FC = () => {
   const windSpeed: number = convertWindSpeedToKmh(wData.wind?.speed ?? 0);
   const currDate: string = formatTimestamp(wData.dt ?? 99);
   const timeZone: string = getGmtOffsetString(wData.timezone ?? 99);
-  const sunrise: string = getTimeFromTimestamp(wData.sys?.sunrise ?? 99);
-  const sunset: string = getTimeFromTimestamp(wData.sys?.sunset ?? 99);
+  const sunset: string = getTimeFromTimestamp(wData.sys?.sunrise ?? 99);
+  const sunrise: string = getTimeFromTimestamp(wData.sys?.sunset ?? 99);
 
   console.log(windSpeed, currDate, timeZone);
   return (
