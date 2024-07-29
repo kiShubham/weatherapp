@@ -92,7 +92,7 @@ const Home: React.FC = () => {
   const sunset: string = getTimeFromTimestamp(wData.sys?.sunrise ?? 99);
   const sunrise: string = getTimeFromTimestamp(wData.sys?.sunset ?? 99);
 
-  console.log(windSpeed, currDate, timeZone);
+  // console.log(windSpeed, currDate, timeZone);
   return (
     <div className="home">
       <nav className="navbar">
