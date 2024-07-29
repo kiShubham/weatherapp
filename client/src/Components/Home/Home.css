@@ -18,7 +18,7 @@
   background-color: rgba(245, 245, 244, 0.1);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
-  width: 1300px;
+  width: 1200px;
 }
 .nameInput,
 .cityInput {
